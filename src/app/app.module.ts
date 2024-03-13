@@ -9,6 +9,9 @@ import { Assignment4Component } from './assignment4/assignment4.component';
 import { GameControlComponent } from './assignment4/game-control/game-control.component';
 import { OddComponent } from './assignment4/odd/odd.component';
 import { EvenComponent } from './assignment4/even/even.component';
+import { ActiveUsersComponent } from './assignment5-services/active-users/active-users.component';
+import { InactiveUsersComponent } from './assignment5-services/inactive-users/inactive-users.component';
+import { Assignment5Component } from './assignment5-services/assignment5.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { EvenComponent } from './assignment4/even/even.component';
     Assignment4Component,
     GameControlComponent,
     OddComponent,
-    EvenComponent
+    EvenComponent,
+    ActiveUsersComponent,
+    InactiveUsersComponent,
+    Assignment5Component
   ],
   imports: [
     BrowserModule,
